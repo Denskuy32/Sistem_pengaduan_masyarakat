@@ -1,0 +1,30 @@
+<?php
+
+namespace App\Console\Commands\notifikasi;
+
+use Illuminate\Console\Command;
+
+class addnotifikasi extends Command
+{
+    /**
+     * The name and signature of the console command.
+     *
+     * @var string
+     */
+    protected $signature = 'app:addnotifikasi';
+
+    /**
+     * The console command description.
+     *
+     * @var string
+     */
+    protected $description = 'Command description';
+
+    /**
+     * Execute the console command.
+     */
+    public function handle()
+    {
+        //
+    }
+}
